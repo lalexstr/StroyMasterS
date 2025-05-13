@@ -101,13 +101,7 @@ pool.getConnection()
     console.error('MySQL connection error:', err);
   });
 
-  const path = require('path');
 
-  app.use(express.static(path.join(__dirname, 'public/dist')));
-  
-  app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public/dist/index.html'));
-  });
 
 // Запуск сервера
 const PORT = process.env.PORT || 3000;
