@@ -1,0 +1,20 @@
+.cta {
+    background-color: var(--primary-color);
+    color: var(--white);
+    text-align: center;
+  }
+  
+  .cta-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .cta-title {
+    color: var(--white);
+    margin-bottom: 30px;
+  }
+  
+  .btn-large {
+    padding: 12px 24px;
+    font-size: 1.125rem;
+  }

@@ -1,0 +1,74 @@
+:root {
+    --primary-color: #1E3A8A;
+    --secondary-color: #F97316;
+    --text-color: #374151;
+    --light-bg: #F3F4F6;
+    --white: #ffffff;
+    --black: #000000;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--text-color);
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-color);
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--secondary-color);
+    color: var(--white);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #e56715;
+  }
+  
+  .section {
+    padding: 80px 0;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  /* Анимация бургер-меню */
+.burger-menu span {
+    transition: all 0.3s ease;
+  }
+  
+  .burger-menu.mobile-nav-open span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  .burger-menu.mobile-nav-open span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .burger-menu.mobile-nav-open span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap');

@@ -1,0 +1,8 @@
+@import './base.css';
+@import './components/header.css';
+@import './components/hero.css';
+@import './components/services.css';
+@import './components/about.css';
+@import './components/workflow.css';
+@import './components/cta.css';
+@import './components/footer.css';
